@@ -1,0 +1,309 @@
+/*
+Theme Name: Stolen
+Theme URI: 
+Author: Grant Lindburg
+Author URI: 
+Description: A clean starter theme based on Bootstrap
+Version: 1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: SASS, clean, bootstrap
+Text Domain: stolen
+*/
+html {
+  margin-top: 0px !important; }
+
+#nav {
+  border-bottom: 3px solid black;
+  display: block;
+  position: fixed;
+  height: 5vh;
+  width: 100vw;
+  z-index: 10;
+  background: white;
+  padding: 20px 0 30px; }
+
+#logo {
+  position: absolute;
+  left: 5vw;
+  width: 100px; }
+
+.navbar-default {
+  background-color: transparent;
+  border-color: transparent;
+  text-align: center;
+  height: 100%;
+  margin: 0; }
+  .navbar-default ul {
+    padding: 0 !important; }
+  .navbar-default .navbar-nav {
+    float: none; }
+  .navbar-default #item-id {
+    display: none; }
+  .navbar-default .menu-item {
+    display: inline-block; }
+    .navbar-default .menu-item a {
+      color: black;
+      padding: 0 3rem;
+      text-transform: uppercase; }
+
+#buynow {
+  background: black;
+  height: 100%;
+  width: 8vw;
+  position: absolute;
+  right: 0;
+  top: 0;
+  text-align: center;
+  line-height: 44pt;
+  font-size: 10pt;
+  color: white;
+  font-weight: 600; }
+
+.touchevents #buynow {
+  width: 25vw;
+  right: 1.7vw; }
+
+.container-fluid {
+  padding-left: 0 !important;
+  padding-right: 0 !important; }
+
+article {
+  width: 100%;
+  position: relative; }
+  article img {
+    position: absolute; }
+
+.touchevents article img {
+  position: relative; }
+.touchevents #nav {
+  margin-top: 0; }
+  .touchevents #nav .nav {
+    background: white;
+    padding: 2rem 0; }
+  .touchevents #nav ul {
+    padding: 0;
+    margin: 0 !important; }
+.touchevents .navbar-toggle {
+  margin-top: -10px;
+  margin-right: 30vw;
+  margin-bottom: 8px;
+  background-color: transparent !important;
+  background-image: none;
+  border: none;
+  border-radius: 4px;
+  color: black; }
+  .touchevents .navbar-toggle .icon-bar {
+    background-color: black; }
+.touchevents .menu-item {
+  display: block;
+  margin: 1rem 0; }
+
+#first img:first-of-type {
+  top: 15vh;
+  left: 16vw;
+  z-index: 1;
+  width: 30vw; }
+#first img:last-of-type {
+  position: relative;
+  left: 30vw;
+  width: 70vw; }
+
+#second .float:nth-of-type(2) {
+  top: -7vh;
+  left: 15vw;
+  width: 40vw; }
+#second .float:last-of-type {
+  top: 0;
+  left: 60vw;
+  width: 40vw;
+  position: relative; }
+#second ul {
+  margin: 5vh 0;
+  padding: 0;
+  list-style-type: none; }
+  #second ul li {
+    width: calc(33.333%);
+    display: inline-block;
+    padding: 1rem; }
+    #second ul li img {
+      position: relative;
+      width: 100% !important;
+      height: auto; }
+    #second ul li p {
+      color: black;
+      font-size: 16pt;
+      text-transform: uppercase;
+      margin-top: 1rem; }
+#second .bottles {
+  width: 30vw;
+  height: 70vh;
+  position: absolute;
+  left: 10vw;
+  top: 5vh; }
+  #second .bottles .slick-list, #second .bottles .slick-track {
+    height: 100%; }
+  #second .bottles .slick-slide {
+    height: 100%; }
+    #second .bottles .slick-slide img {
+      height: 100%; }
+
+.slick-arrow {
+  display: none !important; }
+
+.touchevents #second .float {
+  left: auto;
+  top: auto; }
+  .touchevents #second .float:first-of-type {
+    position: absolute;
+    width: 15vw;
+    top: 15vh; }
+  .touchevents #second .float:nth-of-type(2) {
+    left: -10vw;
+    top: -7vh; }
+  .touchevents #second .float:last-of-type {
+    left: 4vw !important;
+    width: 55vw; }
+.touchevents #second .bottles {
+  width: 30vw;
+  left: 10vw;
+  height: auto;
+  position: absolute;
+  top: 0; }
+  .touchevents #second .bottles img {
+    height: auto;
+    width: 100%; }
+.touchevents #second ul li {
+  width: 100%; }
+
+#third {
+  width: 100vw;
+  height: auto;
+  min-height: 80vh; }
+  #third video {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100vw; }
+  #third #signup {
+    position: relative;
+    left: 10vw;
+    top: 15vh;
+    width: 30vw;
+    height: 30vw; }
+    #third #signup img {
+      width: 100%; }
+    #third #signup input {
+      position: absolute;
+      z-index: 100;
+      display: block;
+      left: 2rem;
+      bottom: 2rem;
+      color: white;
+      background: transparent;
+      border: none;
+      text-transform: uppercase;
+      font-size: 7pt;
+      padding: 1rem;
+      border-bottom: 1px solid white;
+      width: 80%; }
+
+.touchevents #third {
+  min-height: 50vh; }
+  .touchevents #third video {
+    left: -25vw;
+    width: 150vw; }
+  .touchevents #third #signup {
+    position: relative;
+    left: 20vw;
+    top: 7.5vh;
+    width: 60vw;
+    height: 60vw; }
+
+#fourth {
+  width: 100vw;
+  height: auto;
+  min-height: 80vh; }
+  #fourth #thisbg {
+    position: absolute;
+    width: 90vw;
+    top: -95vh; }
+  #fourth #lorem {
+    position: absolute;
+    width: 70vw;
+    top: 50vh;
+    left: 15vw; }
+  #fourth #sb_instagram {
+    padding: 0px 20vw;
+    height: 145vh;
+    margin-top: 55vh; }
+    #fourth #sb_instagram #sbi_images {
+      position: relative;
+      height: 100%; }
+      #fourth #sb_instagram #sbi_images .sbi_item {
+        position: absolute;
+        width: 25vw !important;
+        height: 25vw !important;
+        overflow: hidden; }
+        #fourth #sb_instagram #sbi_images .sbi_item .sbi_photo_wrap, #fourth #sb_instagram #sbi_images .sbi_item .sbi_photo {
+          width: 100%;
+          height: 100% !important; }
+        #fourth #sb_instagram #sbi_images .sbi_item:nth-of-type(2) {
+          left: 27vw;
+          top: 20vh;
+          width: 30vw !important;
+          height: 20vw !important; }
+        #fourth #sb_instagram #sbi_images .sbi_item:nth-of-type(3) {
+          left: 7vw;
+          top: 50vh;
+          width: 25vw !important;
+          height: 30vw !important; }
+        #fourth #sb_instagram #sbi_images .sbi_item:nth-of-type(4) {
+          left: auto;
+          right: 0vw;
+          top: auto;
+          bottom: 10vh;
+          width: 25vw !important;
+          height: 25vw !important; }
+
+.touchevents {
+  width: 100vw;
+  overflow-x: hidden; }
+  .touchevents #fourth {
+    min-height: 0vh;
+    height: 45vh; }
+    .touchevents #fourth #thisbg {
+      top: -45vh; }
+    .touchevents #fourth #lorem {
+      position: absolute;
+      width: 70vw;
+      bottom: auto;
+      top: 10vh;
+      left: 15vw; }
+    .touchevents #fourth #sb_instagram {
+      padding: 0px 10vw;
+      height: 55vh;
+      margin-top: 20vh; }
+      .touchevents #fourth #sb_instagram #sbi_images {
+        margin-top: -20vh; }
+        .touchevents #fourth #sb_instagram #sbi_images .sbi_item {
+          width: 40vw !important;
+          height: 40vw !important; }
+          .touchevents #fourth #sb_instagram #sbi_images .sbi_item:nth-of-type(2) {
+            top: 10vh;
+            left: 40vw; }
+          .touchevents #fourth #sb_instagram #sbi_images .sbi_item:nth-of-type(3) {
+            top: 23vh;
+            left: 10vw; }
+          .touchevents #fourth #sb_instagram #sbi_images .sbi_item:nth-of-type(4) {
+            right: -5vw;
+            bottom: -7vh; }
+
+footer {
+  height: 40vh;
+  width: 100vw;
+  background: black; }
+
+/*# sourceMappingURL=style.css.map */

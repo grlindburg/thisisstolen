@@ -1,0 +1,124 @@
+/*
+Theme Name: Stolen
+Theme URI: 
+Author: Grant Lindburg
+Author URI: 
+Description: A clean starter theme based on Bootstrap
+Version: 1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: SASS, clean, bootstrap
+Text Domain: stolen
+*/
+html {
+  margin-top: 0px !important; }
+
+#nav {
+  border-bottom: 3px solid black;
+  display: block;
+  position: fixed;
+  height: 5vh;
+  margin-top: -32px;
+  width: 100vw;
+  z-index: 10;
+  background: white;
+  padding: 20px 0 30px; }
+
+#logo {
+  position: absolute;
+  left: 5vw;
+  width: 5vw; }
+
+.navbar-default {
+  background-color: transparent;
+  border-color: transparent;
+  text-align: center;
+  height: 100%;
+  margin: 0; }
+  .navbar-default .navbar-nav {
+    float: none; }
+  .navbar-default #item-id {
+    display: none; }
+  .navbar-default .menu-item {
+    display: inline-block; }
+    .navbar-default .menu-item a {
+      color: black;
+      padding: 0 3rem;
+      text-transform: uppercase; }
+
+.container-fluid {
+  padding-left: 0 !important;
+  padding-right: 0 !important; }
+
+article {
+  width: 100%;
+  position: relative; }
+  article img {
+    position: absolute; }
+
+#first img:first-of-type {
+  top: 15vh;
+  left: 16vw;
+  z-index: 1;
+  width: 30vw; }
+#first img:last-of-type {
+  position: relative;
+  left: 30vw;
+  width: 70vw; }
+
+#second .float:nth-of-type(2) {
+  top: -7vh;
+  left: 15vw;
+  width: 40vw; }
+#second .float:last-of-type {
+  top: 0;
+  left: 60vw;
+  width: 40vw;
+  position: relative; }
+#second ul {
+  margin-top: 5vh;
+  list-style-type: none; }
+  #second ul li {
+    width: calc(33% - 1rem);
+    display: inline-block;
+    padding: 1rem; }
+    #second ul li img {
+      position: relative;
+      width: 100% !important;
+      height: auto; }
+    #second ul li p {
+      color: black;
+      font-size: 16pt;
+      text-transform: uppercase;
+      margin-top: 1rem; }
+
+#third {
+  background: url("http://localhost:8888/Stolen/wordpress/wp-content/uploads/2018/08/Video-Background-Image.png");
+  background-size: cover;
+  width: 100vw;
+  height: auto;
+  min-height: 80vh; }
+  #third #signup {
+    position: relative;
+    left: 10vw;
+    top: 15vh;
+    width: 30vw;
+    height: 30vw; }
+    #third #signup img {
+      width: 100%; }
+    #third #signup input {
+      position: absolute;
+      z-index: 100;
+      display: block;
+      left: 2rem;
+      bottom: 2rem;
+      color: white;
+      background: transparent;
+      border: none;
+      text-transform: uppercase;
+      font-size: 7pt;
+      padding: 1rem;
+      border-bottom: 1px solid white;
+      width: 80%; }
+
+/*# sourceMappingURL=style.css.map */

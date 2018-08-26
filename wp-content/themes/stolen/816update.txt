@@ -1,0 +1,19 @@
+Stolen edits 8/16/18
+
+X Underline not dash on explore products
+X Source and description under each blog post
+X Split up products page in sections by country
+- Bottle animations on hover
++ Announcement feature to implement home page text
+X Localization on bottles on homepage
+X Fontawesome social icons in footer
+- Add more textures as background images
+- Localization for menu buy now button
+- Copy over all individual product info
+X Add pages from email
+
+
+NZ: smoked, white, gold, dark (in that order)
+AUS: smoked, white, gold (in that order)
+US: whiskey, smoked rum, overproof rum (in that order)
+All: smoked, whiskey, overproof, white, gold, dark (in that order)
