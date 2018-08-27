@@ -282,7 +282,7 @@ article {
       bottom: 0vh;
       width: 85vw; }
   .touchevents #second #stat {
-    top: 10vh;
+    top: 2vh;
     left: 38vw;
     width: 56vw;
     right: auto;
@@ -292,8 +292,8 @@ article {
     text-transform: uppercase;
     font-family: lestertwo; }
   .touchevents #second .cta {
-    top: auto;
-    left: 37vw;
+    top: 41vh;
+    left: 38vw;
     width: 40vw; }
   .touchevents #second .bottles {
     width: 50vw;
@@ -478,7 +478,7 @@ article {
     min-height: 0vh;
     height: 50vh; }
     .touchevents #fourth #thisbg {
-      top: -45vh; }
+      top: -24vh; }
     .touchevents #fourth #lorem {
       position: absolute;
       width: 70vw;
