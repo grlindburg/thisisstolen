@@ -7,7 +7,10 @@
 </div>
 
 <div class="products">
-    <h1>Stolen Spirits</h1>
+    <div class="products-title">
+        <img src="http://grlindburg.com/stolen/wp-content/uploads/2018/08/Stolen_Stencil_B-revised.jpg">
+        <span>Stolen</span>
+    </div>
     <div class="filter-button-group button-group js-radio-button-group">
         <button data-sort-value="country, number" class="button active" data-filter="*">
             <img src="http://grlindburg.com/stolen/wp-content/uploads/2018/08/world_0000_Layer-1.png">
