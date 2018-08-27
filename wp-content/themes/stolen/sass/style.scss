@@ -701,6 +701,8 @@ footer {
         #info {
             margin-top: 2rem;
             font-family: "lestertwo";
+            padding: 0;
+            text-align: left;
         }
         ul {
             list-style-type:  none;
@@ -771,6 +773,7 @@ article.tag-rum .sqs-block, article.post-type-text .sqs-block {
             width: 100%;
             padding: 0rem 9% 1rem;
             margin-top: 2rem;
+            font-family: lestertwo;
         }
     }
 }
