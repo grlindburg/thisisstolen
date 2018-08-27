@@ -963,8 +963,8 @@ article.tag-rum .sqs-block, article.post-type-text .sqs-block {
     }
     p {
         font-family: pitch !important;
-        font-size: 14pt;
-        line-height: 18pt;
+        font-size: 12pt;
+        line-height: 20pt;
         color: black;
         text-decoration: none !important;
     }
@@ -1007,8 +1007,9 @@ article.tag-rum .sqs-block, article.post-type-text .sqs-block {
             color: black;
             text-transform: uppercase;
             text-decoration: none !important;
-            font-size: 14pt !important;
+            font-size: 14px !important;
             line-height: 14pt !important;
+            letter-spacing: .2rem;
         }
         &:before {
             content: 'Drinks';
@@ -1141,7 +1142,7 @@ section {
     .BlogItem p {
         font-family: pitch !important;
         font-size: 14px;
-        line-height: 15pt;
+        line-height: 20pt;
     }
     .BlogItem .detail {
         position: relative;
