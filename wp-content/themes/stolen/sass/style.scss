@@ -425,7 +425,7 @@ article {
 #third {
     width: 100vw;
     height: auto;
-    min-height: 80vh;
+    min-height: 120vh;
     video, .wistia_responsive_padding {
         position: absolute !important;
         top: 0;
@@ -551,17 +551,24 @@ article {
     #third {
         min-height: 50vh;
         overflow: hidden;
+        margin-top: 3rem;
         video, .wistia_responsive_padding {
             left: -25vw;
             width: 150vw;
         }
         #signup {
             position: relative;
-            left: 20vw;
-            top: 7.5vh;
-            width: 60vw;
-            height: 60vw;
-
+            left: 10vw;
+            top: 1vh;
+            width: 80vw;
+            height: 75vw;
+            #mc_embed_signup_scroll {
+                left: 1rem;
+                bottom: 0;
+                .email {
+                    width: 100%;
+                }
+            }
         }    
     }
     
@@ -575,7 +582,7 @@ article {
     #thisbg {
         position: absolute;
         width: 90vw;
-        top: 10vh;
+        top: -20vh;
     }
 
     #lorem {
@@ -588,7 +595,7 @@ article {
     #sb_instagram {
         padding: 0px 20vw;
         height: 145vh;
-        margin-top: 55vh;
+        margin-top: 0vh;
         #sbi_images {
             position: relative;
             height: 100%;

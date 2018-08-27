@@ -310,7 +310,7 @@ article {
 #third {
   width: 100vw;
   height: auto;
-  min-height: 80vh; }
+  min-height: 120vh; }
   #third video, #third .wistia_responsive_padding {
     position: absolute !important;
     top: 0;
@@ -414,16 +414,22 @@ article {
 
 .touchevents #third {
   min-height: 50vh;
-  overflow: hidden; }
+  overflow: hidden;
+  margin-top: 3rem; }
   .touchevents #third video, .touchevents #third .wistia_responsive_padding {
     left: -25vw;
     width: 150vw; }
   .touchevents #third #signup {
     position: relative;
-    left: 20vw;
-    top: 7.5vh;
-    width: 60vw;
-    height: 60vw; }
+    left: 10vw;
+    top: 1vh;
+    width: 80vw;
+    height: 75vw; }
+    .touchevents #third #signup #mc_embed_signup_scroll {
+      left: 1rem;
+      bottom: 0; }
+      .touchevents #third #signup #mc_embed_signup_scroll .email {
+        width: 100%; }
 
 #fourth {
   width: 100vw;
@@ -432,7 +438,7 @@ article {
   #fourth #thisbg {
     position: absolute;
     width: 90vw;
-    top: 10vh; }
+    top: -20vh; }
   #fourth #lorem {
     position: absolute;
     width: 70vw;
@@ -441,7 +447,7 @@ article {
   #fourth #sb_instagram {
     padding: 0px 20vw;
     height: 145vh;
-    margin-top: 55vh; }
+    margin-top: 0vh; }
     #fourth #sb_instagram #sbi_images {
       position: relative;
       height: 100%; }
@@ -528,7 +534,9 @@ footer {
       padding: 0 3rem; }
     footer .row #info {
       margin-top: 2rem;
-      font-family: "lestertwo"; }
+      font-family: "lestertwo";
+      padding: 0;
+      text-align: left; }
     footer .row ul {
       list-style-type: none;
       padding: 0; }
@@ -578,7 +586,8 @@ article.tag-rum .sqs-block, article.post-type-text .sqs-block {
     float: left;
     width: 100%;
     padding: 0rem 9% 1rem;
-    margin-top: 2rem; }
+    margin-top: 2rem;
+    font-family: lestertwo; }
 
 #scratch {
   position: fixed;
@@ -712,8 +721,8 @@ article.tag-rum .sqs-block, article.post-type-text .sqs-block {
       display: none; }
   .BlogItem p {
     font-family: pitch !important;
-    font-size: 14pt;
-    line-height: 18pt;
+    font-size: 12pt;
+    line-height: 20pt;
     color: black;
     text-decoration: none !important; }
   .BlogItem .ctas {
@@ -750,8 +759,9 @@ article.tag-rum .sqs-block, article.post-type-text .sqs-block {
       color: black;
       text-transform: uppercase;
       text-decoration: none !important;
-      font-size: 14pt !important;
-      line-height: 14pt !important; }
+      font-size: 14px !important;
+      line-height: 14pt !important;
+      letter-spacing: .2rem; }
     .BlogItem .recipes:before {
       content: 'Drinks';
       position: absolute;
@@ -790,7 +800,7 @@ section img {
     width: 100%; }
 
 .summary-title-link {
-  font-family: 'pitchbold'; }
+  font-family: 'pitch'; }
 
 .Index-page {
   padding: 0 18vw; }
@@ -809,7 +819,7 @@ section img {
   padding: 0 20vw;
   margin: 20vh 0 2rem;
   text-align: center;
-  font-family: stolenhand5; }
+  font-family: lestertwo; }
 
 .touchevents .BlogItem .flex {
   display: block; }
@@ -833,7 +843,7 @@ section img {
 .touchevents .BlogItem p {
   font-family: pitch !important;
   font-size: 14px;
-  line-height: 15pt; }
+  line-height: 20pt; }
 .touchevents .BlogItem .detail {
   position: relative;
   display: inline-block;
@@ -895,5 +905,29 @@ section img {
   left: 8vw;
   position: relative !important;
   width: 85vw; }
+
+@media (min-width: 768px) {
+  .menu-main-menu-container ul {
+    display: flex;
+    justify-content: center;
+    align-items: center; } }
+.navbar-default .menu-item .sub-menu {
+  flex-wrap: wrap; }
+
+.navbar-default .menu-item .sub-menu li {
+  padding: 0 1rem; }
+
+.navbar-default .menu-item .sub-menu a {
+  padding: 0;
+  text-align: center; }
+
+@media (max-width: 700px) {
+  .navbar-default .menu-item .sub-menu li {
+    flex: 33%; } }
+.filter-button-group.button-group.js-radio-button-group {
+  padding-top: 0; }
+
+.filter-button-group.button-group.js-radio-button-group img {
+  padding-top: 0; }
 
 /*# sourceMappingURL=style.css.map */

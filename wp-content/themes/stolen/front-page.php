@@ -137,7 +137,7 @@ if ($mycountry == '') {
 </article>
 
 <article id="fourth">
-    <img id="thisbg" src="http://grlindburg.com/stolen/wp-content/uploads/2018/08/Stolen_Stencil_A-revised.jpg">
+    <img id="thisbg" src="http://grlindburg.com/stolen/wp-content/uploads/2018/08/Stolen_Stencil_A-revised.png">
     <img id="lorem" src="http://grlindburg.com/stolen/wp-content/uploads/2018/08/lorem.png">
     <?php echo do_shortcode("[instagram-feed]"); ?>
 </article>
