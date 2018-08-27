@@ -37,6 +37,18 @@ jQuery(document).ready(function() {
     });
 
     jQuery('.bottles').addClass('unhide');
+
+    jQuery('.sub-menu').find('li').each(function() {
+      jQuery(this).find('a').attr('href', jQuery(this).find('a').attr('href') + '#drinks');
+    });
+
+    if(window.location.href.indexOf('#drinks') > -1) {
+      
+      console.log(jQuery('.flex:nth-of-type(2)').offset().top);
+      jQuery('html, body').animate({
+        scrollTop: (jQuery('.flex:nth-of-type(2)').offset().top - 100)
+      },500);
+    }
 });
 
 
