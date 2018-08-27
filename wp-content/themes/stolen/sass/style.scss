@@ -1223,3 +1223,38 @@ section {
     position: relative !important;
     width: 85vw;
 }
+
+@media (min-width: 768px) {
+  .menu-main-menu-container ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+}
+
+.navbar-default .menu-item .sub-menu {
+  flex-wrap:wrap;
+}
+
+.navbar-default .menu-item .sub-menu li {
+    padding: 0 1rem;
+}
+
+.navbar-default .menu-item .sub-menu a {
+  padding: 0;
+  text-align: center;
+}
+
+@media (max-width: 700px) {
+  .navbar-default .menu-item .sub-menu li {
+    flex: 33%;
+  }
+}
+
+.filter-button-group.button-group.js-radio-button-group {
+    padding-top: 0;
+}
+
+.filter-button-group.button-group.js-radio-button-group img {
+    padding-top: 0;
+}

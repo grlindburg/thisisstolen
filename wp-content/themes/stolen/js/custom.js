@@ -110,7 +110,7 @@ jQuery(window).on('load', function() {
     jQuery('.sub-menu').fadeIn();
     jQuery('.sub-menu').css({
       display: "inline-flex",
-      height: "50px",
+      height: "fit-content",
       zIndex: 1
     });
   });
