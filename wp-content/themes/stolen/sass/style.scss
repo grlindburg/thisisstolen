@@ -73,7 +73,7 @@ html {
     height: 100%;
     margin: 0;
     ul {
-        padding: 0 !important;
+        // padding: 0 !important;
     }
     .navbar-nav {
         float: none;
@@ -169,6 +169,20 @@ article {
     .menu-item {
         display: block;
         margin: 1rem 0;
+    }
+    .sub-menu {
+        display: block;
+        height: 0;
+        z-index: 1;
+        position: relative;
+        overflow: hidden;
+        padding: 0 !important;
+        border: none;
+        transition: all .2s linear;
+    }
+    .open {
+        height: fit-content;
+        display: block !important;
     }
 }
 
@@ -388,7 +402,7 @@ article {
             // }
         }
         #stat {
-            top: 2vh;
+            top: 5vh;
             left: 38vw;
             width: 56vw;
             right: auto;
@@ -399,7 +413,7 @@ article {
             font-family: lestertwo;
         }
         .cta {
-            top: 41vh;
+            top: 43vh;
             left: 38vw;
             width: 40vw;
         }
@@ -409,6 +423,7 @@ article {
             height: auto;
             position: relative;
             top: 0;
+            margin-bottom: 10vh;
             img {
                 height: auto;
                 width: 100%;
@@ -819,7 +834,7 @@ article.tag-rum .sqs-block, article.post-type-text .sqs-block {
             }
             img {
                 width: 100%;
-                padding: 1rem;
+                padding: 2rem;
             }
             &:after {
 
@@ -873,8 +888,14 @@ article.tag-rum .sqs-block, article.post-type-text .sqs-block {
     p {
         display: none;
     }
+    a {
+        text-decoration: none;        
+    }
     h3 {
         font-size: 12pt;
+    }
+    h5 {
+        font-size: 8pt;
     }
     h1 {
         font-family: stolenhand5;
@@ -894,7 +915,7 @@ article.tag-rum .sqs-block, article.post-type-text .sqs-block {
 
 .products-title img {
   height: 100px;
-  margin-left: 36px;
+  // margin-left: 36px;
 }
 
 .products-title span {
@@ -1224,11 +1245,34 @@ section {
     width: 100%;
     top: 30px;
     right: 2px;
-    padding-top: 0;
+    padding: 1.5rem 0 !important;
     transition: all .3s linear;
     li {
         margin-top: auto;
         margin-bottom: auto;
+    }
+}
+
+.drinks {
+    margin-top: 5rem;
+    padding: 5vh 10vw;
+    min-height: 85vh;
+    img {
+        width: 50%;
+        position: relative;
+        display: inline-block;
+        float: left;
+        height: auto;
+        padding: 0 10% 5%;
+    }
+    h1 {
+        font-family: lestertwo;
+    }
+    h3 {
+        font-family: stolenhand5;
+    }
+    p {
+        font-family: pitch;
     }
 }
 
@@ -1256,7 +1300,7 @@ section {
 
 @media (min-width: 768px) {
   .menu-main-menu-container ul {
-      display: flex;
+      // display: flex;
       justify-content: center;
       align-items: center;
   }

@@ -56,8 +56,6 @@ html {
   text-align: center;
   height: 100%;
   margin: 0; }
-  .navbar-default ul {
-    padding: 0 !important; }
   .navbar-default .navbar-nav {
     float: none; }
   .navbar-default #item-id {
@@ -127,6 +125,18 @@ article {
 .touchevents .menu-item {
   display: block;
   margin: 1rem 0; }
+.touchevents .sub-menu {
+  display: block;
+  height: 0;
+  z-index: 1;
+  position: relative;
+  overflow: hidden;
+  padding: 0 !important;
+  border: none;
+  transition: all .2s linear; }
+.touchevents .open {
+  height: fit-content;
+  display: block !important; }
 
 #first img {
   position: absolute; }
@@ -282,7 +292,7 @@ article {
       bottom: 0vh;
       width: 85vw; }
   .touchevents #second #stat {
-    top: 2vh;
+    top: 5vh;
     left: 38vw;
     width: 56vw;
     right: auto;
@@ -292,7 +302,7 @@ article {
     text-transform: uppercase;
     font-family: lestertwo; }
   .touchevents #second .cta {
-    top: 41vh;
+    top: 43vh;
     left: 38vw;
     width: 40vw; }
   .touchevents #second .bottles {
@@ -300,7 +310,8 @@ article {
     left: -5vw;
     height: auto;
     position: relative;
-    top: 0; }
+    top: 0;
+    margin-bottom: 10vh; }
     .touchevents #second .bottles img {
       height: auto;
       width: 100%; }
@@ -619,7 +630,7 @@ article.tag-rum .sqs-block, article.post-type-text .sqs-block {
         opacity: 1; }
       .products .filter-button-group button img {
         width: 100%;
-        padding: 1rem; }
+        padding: 2rem; }
       .products .filter-button-group button:first-of-type:after {
         content: "WORLDWIDE";
         font-family: stolenhand5; }
@@ -654,8 +665,12 @@ article.tag-rum .sqs-block, article.post-type-text .sqs-block {
 
 .products p {
   display: none; }
+.products a {
+  text-decoration: none; }
 .products h3 {
   font-size: 12pt; }
+.products h5 {
+  font-size: 8pt; }
 .products h1 {
   font-family: stolenhand5;
   text-align: center;
@@ -670,8 +685,7 @@ article.tag-rum .sqs-block, article.post-type-text .sqs-block {
   font-size: 56px; }
 
 .products-title img {
-  height: 100px;
-  margin-left: 36px; }
+  height: 100px; }
 
 .products-title span {
   padding-top: 36px; }
@@ -899,11 +913,29 @@ section img {
   width: 100%;
   top: 30px;
   right: 2px;
-  padding-top: 0;
+  padding: 1.5rem 0 !important;
   transition: all .3s linear; }
   .sub-menu li {
     margin-top: auto;
     margin-bottom: auto; }
+
+.drinks {
+  margin-top: 5rem;
+  padding: 5vh 10vw;
+  min-height: 85vh; }
+  .drinks img {
+    width: 50%;
+    position: relative;
+    display: inline-block;
+    float: left;
+    height: auto;
+    padding: 0 10% 5%; }
+  .drinks h1 {
+    font-family: lestertwo; }
+  .drinks h3 {
+    font-family: stolenhand5; }
+  .drinks p {
+    font-family: pitch; }
 
 .current-menu-ancestor a {
   z-index: 1; }
@@ -924,7 +956,6 @@ section img {
 
 @media (min-width: 768px) {
   .menu-main-menu-container ul {
-    display: flex;
     justify-content: center;
     align-items: center; } }
 .navbar-default .menu-item .sub-menu {

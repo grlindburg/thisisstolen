@@ -74,7 +74,7 @@ if ($mycountry == '') {
     </a>
     <ul class="blog">
         <?php
-            $posts = get_posts( array( 'posts_per_page' => 5 ) );
+            $posts = get_posts( array( 'posts_per_page' => 5, 'category' => 9 ) );
             foreach ( $posts as $_post ) {
                 // var_dump($_post);
                 // echo $_post;
@@ -86,7 +86,9 @@ if ($mycountry == '') {
                     foreach($post_categories as $c){
                         $cat = get_category( $c );
                         // var_dump($cat);
-                        echo $cat->name . ' ';
+                        if($cat->term_id != 9) {
+                          echo $cat->name . ' ';
+                        }
                         //$cats[] = array( 'name' => $cat->name, 'slug' => $cat->slug );
                     }
                     echo " | ";

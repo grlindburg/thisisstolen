@@ -49,6 +49,31 @@ jQuery(document).ready(function() {
         scrollTop: (jQuery('.flex:nth-of-type(2)').offset().top - 100)
       },500);
     }
+
+    jQuery('#menu-item-18 > a').attr('href', '#');
+
+    jQuery('#menu-item-18').hover(function() {
+      jQuery('.sub-menu').fadeIn();
+      jQuery('.sub-menu').css({
+        display: "inline-flex",
+        height: "fit-content",
+        zIndex: 1
+      });
+    });
+
+    if(Modernizr.touchevents){
+      jQuery('#menu-item-18').click(function() {
+        jQuery('.sub-menu').toggleClass('open');
+      });
+    }
+
+    jQuery('#nav').hover(function() {
+
+    }, function() {
+      jQuery('.sub-menu').fadeOut(200);
+    });
+
+
 });
 
 
@@ -97,37 +122,6 @@ jQuery(window).on('load', function() {
     }
 
   });
-
-  //jQuery('#mc-embedded-subscribe').click(function() {
-    //Cookies.set('subscribed', 'yes');
-  //});
-
-  //if(Cookies.get('subscribed') != 'yes') {
-  //  jQuery('#mc_embed_signup_scroll').html("<p>You're subscribed to get updates from Stolen!</p>");
-  //}
-
-  jQuery('#menu-item-18').hover(function() {
-    jQuery('.sub-menu').fadeIn();
-    jQuery('.sub-menu').css({
-      display: "inline-flex",
-      height: "fit-content",
-      zIndex: 1
-    });
-  });
-
-  jQuery('#nav').hover(function() {
-
-  }, function() {
-    jQuery('.sub-menu').fadeOut(200);
-  });
-
-  //jQuery('.recipes').slick({
-  //  slidesToShow: 3,
-  //  slidesToScroll: 1,
-  //  autoplay: true,
-  //  autoplayOnHover: true,
-  //  autoplaySpeed: 5000
-  //});
 
   var options = {
     strings: ["LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT, SED DO EIUSMOD TEMPOR INCIDIDUNT UT LABORE ET DOLORE MAGNA ALIQUA. CONVALLIS A CRAS SEMPER AUCTOR. LACUS LAOREET NON CURABITUR GRAVIDA ARCU AC TORTOR DIGNISSIM CONVALLIS. AT QUIS RISUS SED VULPUTATE ODIO UT."],
