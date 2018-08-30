@@ -45,19 +45,19 @@ html {
 #nav {
     border-bottom: 3px solid black;
     // min-height: 1vh;
-    display: block;
+    display: flex;
     position: fixed;
     height: 5vh;
     // margin-top: -32px;
     width: 100vw;
     z-index: 11;
     background: white;
-    padding: 20px 0 30px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #logo {
-    position: absolute;
-    left: 5vw;
+    margin-left: 5vw;
     top: 1.8vh;
     width: 150px;
     z-index: 1000;
@@ -71,7 +71,7 @@ html {
     border-color: transparent;
     text-align: center;
     height: 100%;
-    margin: 0;
+    margin: 0 5vw 0 0;
     ul {
         // padding: 0 !important;
     }
@@ -102,7 +102,9 @@ html {
     right: 0;
     top: 0;
     text-align: center;
-    line-height: 44pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 10pt;
     color: white;
     font-weight: 600;
@@ -141,9 +143,14 @@ article {
             position: relative;
         }
     }
+    #logo {
+        position: absolute;
+        left: 5vw;
+    }
     #nav {
         margin-top: 0;
         width: 101vw;
+        display: block;
         .nav {
             background: white;
             padding: 2rem 0;
