@@ -13,9 +13,8 @@
                     <ul>
                         <li><a href="/stolen/products">PRODUCTS</a></li>
                         <li><a href="/stolen/where-to-buy">WHERE TO BUY</a></li>
-                        <li><a href="/stolen/drinks">DRINKS</a></li>
-                        <li><a href="/stolen/about">ABOUT STOLEN</a></li>
-                        <li><a href="/stolen/contact">CONTACT US</a></li>
+                        <!-- <li><a href="/stolen/about">ABOUT STOLEN</a></li> -->
+                        <li><a href="/stolen/contact-us">CONTACT US</a></li>
                         <li><a href="/stolen/privacy-policy">PRIVACY POLICY</a></li>
                         <li><a href="https://thisisstolen.tandemvault.com/login">INTERNAL ASSET LIBRARY</a></li>
                     </ul>

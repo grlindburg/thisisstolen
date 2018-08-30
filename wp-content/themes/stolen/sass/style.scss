@@ -87,7 +87,7 @@ html {
             color: black;
             padding: 0 3rem;
             text-transform: uppercase;
-            font-family: pitch;
+            font-family: pitchbold;
             font-weight: 900;
             letter-spacing: .2rem;
         }
@@ -254,7 +254,7 @@ article {
     }
     .cta {
         cursor: pointer;
-        top: 50vh;
+        top: 55vh;
         left: 32vw;
         width: 10.5vw;
         height: 5vw;
@@ -413,9 +413,12 @@ article {
             font-family: lestertwo;
         }
         .cta {
-            top: 43vh;
+            top: -3vh;
             left: 38vw;
             width: 40vw;
+            min-height: 12vh;
+            position: relative;
+            display: inline-block;
         }
         .bottles {
             width: 50vw;
@@ -423,7 +426,7 @@ article {
             height: auto;
             position: relative;
             top: 0;
-            margin-bottom: 10vh;
+            margin-bottom: 0;
             img {
                 height: auto;
                 width: 100%;
@@ -581,8 +584,13 @@ article {
             #mc_embed_signup_scroll {
                 left: 1rem;
                 bottom: 0;
+                border: none;
                 .email {
                     width: 100%;
+                    border-bottom: 1px solid white;
+                }
+                .clear {
+                    padding-top: 1rem;
                 }
             }
         }    
@@ -835,6 +843,13 @@ article.tag-rum .sqs-block, article.post-type-text .sqs-block {
             img {
                 width: 100%;
                 padding: 2rem;
+                display: block;
+            }
+            .line {
+                display: block;
+            }
+            .solid {
+                display: none;
             }
             &:after {
 
@@ -855,11 +870,14 @@ article.tag-rum .sqs-block, article.post-type-text .sqs-block {
                 content: "NZ";
                 font-family: stolenhand5;            
             }
-
         }
         .active {
             opacity: 1;
+            img {
+                display: block;
+            }
         }
+
     }
     .bottle-rack {
         margin: 0;
@@ -869,6 +887,7 @@ article.tag-rum .sqs-block, article.post-type-text .sqs-block {
         display: inline-block;
         margin-bottom: 2rem;
         float: left;
+        min-height: 50vh;
     }
     .bottle-rack div img {
         width: 100%;
@@ -884,6 +903,12 @@ article.tag-rum .sqs-block, article.post-type-text .sqs-block {
     }
 }
 
+.touchevents {
+    .bottle-rack {
+        margin-left: 1rem;
+    }
+}
+
 .products {
     p {
         display: none;
@@ -892,7 +917,7 @@ article.tag-rum .sqs-block, article.post-type-text .sqs-block {
         text-decoration: none;        
     }
     h3 {
-        font-size: 12pt;
+        font-size: 9pt;
     }
     h5 {
         font-size: 8pt;
@@ -906,21 +931,20 @@ article.tag-rum .sqs-block, article.post-type-text .sqs-block {
 }
 
 .products-title {
-    display: flex;
-    vertical-align: middle;
-    justify-content: center;
-    align-items: center;
+    position: relative;
     font-size: 56px;
-    font-family: lestertwo;
-}
-
-.products-title img {
-  height: 100px;
-  margin-left: -50px;
-}
-
-.products-title span {
-  padding-top: 36px;
+    img {
+      width: 50%;
+      margin: 0 auto;
+      display: block;
+    }
+    h2 {
+        width: 100%;
+        text-align: center;
+        font-family: lestertwo;
+        text-transform: uppercase;
+        margin: 0;
+    }
 }
 
 .touchevents {
@@ -995,6 +1019,7 @@ article.tag-rum .sqs-block, article.post-type-text .sqs-block {
         min-height: 100vh;
         div {
             width: 100%;
+            margin: 10vh 0;
             img {
                 width: 100%;
             }
@@ -1077,7 +1102,7 @@ article.tag-rum .sqs-block, article.post-type-text .sqs-block {
             display: inline-block;
             width: 32%;
             float: left;
-            min-height: 70vh;
+            min-height: 75vh;
             padding: 2rem;
             img {
                 width: 100%;
@@ -1167,7 +1192,7 @@ section {
     }
 
     .BlogItem .BlogItem-title {
-        font-size: 35px;
+        font-size: 33px;
         margin-bottom: 0 !important;
         margin-top: 10rem !important;
     }
@@ -1192,8 +1217,8 @@ section {
     }
     .BlogItem p {
         font-family: pitch !important;
-        font-size: 14px;
-        line-height: 20pt;
+        font-size: 12px;
+        line-height: 14px;
     }
     .BlogItem .detail {
         position: relative;
@@ -1266,6 +1291,18 @@ section {
         height: auto;
         padding: 0 10% 5%;
     }
+    .details {
+        width: 50%;
+        position: relative;
+        display: inline-block;
+        float: left;
+        height: auto;
+        article {
+            margin: 0;
+            padding-bottom: 10vh;
+            width: 100%;
+        }
+    }
     h1 {
         font-family: lestertwo;
     }
@@ -1274,6 +1311,21 @@ section {
     }
     p {
         font-family: pitch;
+    }
+}
+
+.touchevents .drinks {
+    img {
+        width: 100%;
+    }
+    h1 {
+        margin-top: 2rem;
+        display: inline-block;
+        position: relative;
+    }
+    .details {
+        width: 100%;
+        margin-bottom: 3rem;
     }
 }
 
@@ -1332,4 +1384,22 @@ section {
 
 .filter-button-group.button-group.js-radio-button-group img {
     padding-top: 0;
+}
+
+.typed-cursor {
+    display: none !important;
+}
+
+.contact  {
+    padding: 5% 30%;
+}
+
+.touchevents {
+    .contact {
+        padding: 0 10%;
+    }
+}
+
+#elementor {
+    padding-top: 5rem;
 }
