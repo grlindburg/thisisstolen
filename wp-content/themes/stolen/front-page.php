@@ -69,7 +69,7 @@ if ($mycountry == '') {
        <?php } ?>
     </div>
     <h2 id="stat"></h2>
-    <a class="cta" href="/stolen/products">
+    <a class="cta" href="/stolen/products" target=”_blank”>
         <h2>EXPLORE PRODUCTS</h2>
     </a>
     <ul class="blog">
@@ -79,7 +79,7 @@ if ($mycountry == '') {
                 // var_dump($_post);
                 // echo $_post;
                 if ( has_post_thumbnail( $_post->ID ) ) {
-                    echo '<li><a href="' . get_permalink( $_post->ID ) . '" title="' . esc_attr( $_post->post_title ) . '">';
+                    echo '<li><a href="' . get_permalink( $_post->ID ) . '" title="' . esc_attr( $_post->post_title ) . '" target=”_blank”>';
                     echo get_the_post_thumbnail( $_post->ID, '300x300' );
                     echo '<p>' . esc_attr( $_post->post_title ) . '</p></a><span><p>';
                     $post_categories = wp_get_post_categories( $_post->ID );                         
