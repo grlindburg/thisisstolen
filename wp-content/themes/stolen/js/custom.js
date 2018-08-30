@@ -73,6 +73,9 @@ jQuery(document).ready(function() {
       jQuery('.sub-menu').fadeOut(200);
     });
 
+    jQuery('.filter-button-group .button:first-of-type').find('.line').css({
+      display: 'none'
+    });
 
 });
 
@@ -96,6 +99,11 @@ jQuery(window).on('load', function() {
       filter: filterValue,
       sortBy: sortValue
     });
+
+    jQuery('.solid').fadeOut(0);
+    jQuery('.line').fadeIn(0);
+    jQuery(this).find('.line').fadeOut(0);
+    jQuery(this).find('.solid').fadeIn(0);
   });
 
   jQuery('.filter-button-group').find('button').click(function() {
@@ -129,6 +137,8 @@ jQuery(window).on('load', function() {
   }
 
   var typed = new Typed("#stat", options);
+
+
 
 });
 
