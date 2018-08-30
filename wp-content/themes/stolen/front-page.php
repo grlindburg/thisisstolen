@@ -87,7 +87,7 @@ if ($mycountry == '') {
                         $cat = get_category( $c );
                         // var_dump($cat);
                         if($cat->term_id != 9) {
-                          echo $cat-> '<span class="category_bold">' . name . '</span>';
+                          echo '<span class="category_bold">' . $cat->name . '</span>';
                         }
                         //$cats[] = array( 'name' => $cat->name, 'slug' => $cat->slug );
                     }
