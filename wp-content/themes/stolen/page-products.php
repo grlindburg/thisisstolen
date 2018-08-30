@@ -33,7 +33,7 @@
     <div class="bottle-rack">
         <div data-country="A" class="element-item america new-zealand australia">
             <p class="number">2</p>
-            <a href="/stolen/stolen-smoked-rum/">            
+            <a href="/stolen/stolen-smoked-rum/" target=”_blank”>            
                 <img src="http://grlindburg.com/stolen/wp-content/uploads/2018/08/smoked.png"/>
                 <h5>Made in Trinidad & Tobago<br/>42% ALC/VOL</h5>
                 <h3>Find Out More</h3>
@@ -41,7 +41,7 @@
         </div>
         <div data-country="B" class="element-item america">
             <p class="number">1</p>
-            <a href="/stolen/whiskey/">                
+            <a href="/stolen/whiskey/" target=”_blank”>                
                 <img src="http://grlindburg.com/stolen/wp-content/uploads/2018/08/stolen_0004_whiskeybottlewhitelabelred900.png.png"/>
                 <h5>Made in America<br/>46% ALC/VOL</h5>
                 <h3>Find Out More</h3>
@@ -49,7 +49,7 @@
         </div>
         <div data-country="C" class="element-item america">
             <p class="number">3</p>
-            <a href="/stolen/stolen-overproof-rum/">
+            <a href="/stolen/stolen-overproof-rum/" target=”_blank”>
             <img src="http://grlindburg.com/stolen/wp-content/uploads/2018/08/stolen_0000_download-1.jpeg.png"/>                
                 <h5>Made in Jamaica<br/>61.5% ALC/VOL</h5>
                 <h3>Find Out More</h3>
@@ -57,7 +57,7 @@
         </div>
         <div data-country="D" class="element-item australia new-zealand">
             <p class="number">4</p>
-            <a href="/stolen/stolen-white-rum/">
+            <a href="/stolen/stolen-white-rum/" target=”_blank”>
                 <img src="http://grlindburg.com/stolen/wp-content/uploads/2018/08/stolen_0002_download.png.png"/>
                 <h5>Made in Trinidad & Tobago<br/>37.5% ALC/VOL</h5>
                 <h3>Find Out More</h3>
@@ -65,7 +65,7 @@
         </div>
         <div data-country="E" class="element-item australia new-zealand">
             <p class="number">5</p>
-            <a href="/stolen/stolen-gold-rum">
+            <a href="/stolen/stolen-gold-rum" target=”_blank”>
                 <img src="http://grlindburg.com/stolen/wp-content/uploads/2018/08/stolen_0001_download-3.jpeg.png"/>                
                 <h5>Made in Trinidad & Tobago<br/>37.5% ALC/VOL</h5>
                 <h3>Find Out More</h3>
@@ -73,7 +73,7 @@
         </div>
         <div data-country="F" class="element-item new-zealand">
             <p class="number">6</p>
-            <a href="/stolen/stolen-dark-rum">
+            <a href="/stolen/stolen-dark-rum" target=”_blank”>
                 <img src="http://grlindburg.com/stolen/wp-content/uploads/2018/08/stolen_0006_download-2.jpeg.png"/>
                 <h5>Made in Trinidad & Tobago<br/>37.5% ALC/VOL</h5>
                 <h3>Find Out More</h3>
