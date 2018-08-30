@@ -44,7 +44,7 @@ if ($mycountry == '') {
 ?>
 
 <article id="first">
-    <img src="http://grlindburg.com/stolen/wp-content/uploads/2018/08/A-strong-spirit-transcends-rules.png">
+    <img src="http://grlindburg.com/stolen/wp-content/uploads/2018/08/A-strong-spirit-transcends-rules-1-2.png">
     <img src="http://grlindburg.com/stolen/wp-content/uploads/2018/08/hatfirst.jpg">
 </article>
 

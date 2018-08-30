@@ -33,17 +33,17 @@ html {
 
 #nav {
   border-bottom: 3px solid black;
-  display: block;
+  display: flex;
   position: fixed;
   height: 5vh;
   width: 100vw;
   z-index: 11;
   background: white;
-  padding: 20px 0 30px; }
+  justify-content: space-between;
+  align-items: center; }
 
 #logo {
-  position: absolute;
-  left: 5vw;
+  margin-left: 5vw;
   top: 1.8vh;
   width: 150px;
   z-index: 1000; }
@@ -55,7 +55,7 @@ html {
   border-color: transparent;
   text-align: center;
   height: 100%;
-  margin: 0; }
+  margin: 0 5vw 0 0; }
   .navbar-default .navbar-nav {
     float: none; }
   .navbar-default #item-id {
@@ -78,7 +78,9 @@ html {
   right: 0;
   top: 0;
   text-align: center;
-  line-height: 44pt;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 10pt;
   color: white;
   font-weight: 600;
@@ -102,9 +104,13 @@ article {
 
 .touchevents article img {
   position: relative; }
+.touchevents #logo {
+  position: absolute;
+  left: 5vw; }
 .touchevents #nav {
   margin-top: 0;
-  width: 101vw; }
+  width: 101vw;
+  display: block; }
   .touchevents #nav .nav {
     background: white;
     padding: 2rem 0; }
@@ -159,7 +165,9 @@ article {
     top: 3vh;
     left: 18vw; }
   .touchevents #first img:last-of-type {
-    position: absolute; }
+    position: absolute;
+    left: 20vw;
+    width: 90vw; }
 
 #second .float:nth-of-type(2) {
   top: 0;
@@ -457,7 +465,7 @@ article {
   #fourth #thisbg {
     position: absolute;
     width: 90vw;
-    top: -20vh; }
+    top: -40vh; }
   #fourth #lorem {
     position: absolute;
     width: 70vw;
@@ -466,7 +474,7 @@ article {
   #fourth #sb_instagram {
     padding: 0px 20vw;
     height: 145vh;
-    margin-top: 0vh; }
+    margin-top: 10vh; }
     #fourth #sb_instagram #sbi_images {
       position: relative;
       height: 100%; }
