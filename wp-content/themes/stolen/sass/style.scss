@@ -620,9 +620,8 @@ article {
 
     #lorem {
         position: absolute;
-        width: 70vw;
-        top: 50vh;
-        left: 15vw;
+        width: 100vw;
+        bottom: 0;
     }
 
     #sb_instagram {
@@ -675,14 +674,13 @@ article {
         min-height: 0vh;
         height: 50vh;
         #thisbg {
-            top: -24vh;
+            top: -28vh;
         }
         #lorem {
             position: absolute;
-            width: 70vw;
-            bottom: auto;
-            top: 10vh;
-            left: 15vw;
+            width: 120%;
+            top: 46%;
+            left: 0;
         }
         #sb_instagram {
             padding: 0px 10vw;
